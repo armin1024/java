@@ -1,4 +1,4 @@
 ## 徐十九是一条憨憨狗🐕
 <from action="https://armin1024.github.io" method="get">
-  <button type="submit" value="点击跳槽"/>
+  <button type="submit" value="点击跳槽">点击跳槽</button>
 </form>
