@@ -1,0 +1,7 @@
+<classpath>
+  <container id="springmvc-1!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/WorkSpaces/springMVC/springmvc-1/WebContent/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar">
+      <source-attachment-path>E:/DevelopTools/jdk/src.zip</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=springmvc-1/E:\/WorkSpaces\/springMVC\/springmvc-1\/WebContent\/WEB-INF\/lib\/spring-context-4.0.0.RELEASE.jar&lt;org.springframework.validation.support(BindingAwareModelMap.class[BindingAwareModelMap" modifiers="33" timestamp="1597644468858"/>
+<typeInfo handle="=springmvc-1/E:\/DevelopTools\/apache\/apache-tomcat-8.5.45-windows-x64\/apache-tomcat-8.5.45\/lib\/catalina.jar=/javadoc_location=/https:\/\/tomcat.apache.org\/tomcat-8.5-doc\/api\/=/&lt;org.apache.catalina.valves(AbstractAccessLogValve$SessionAttributeElement.class[SessionAttributeElement" modifiers="12" timestamp="1565796296000"/>
+<typeInfo handle="=springmvc-1/E:\/WorkSpaces\/springMVC\/springmvc-1\/WebContent\/WEB-INF\/lib\/spring-webmvc-4.0.0.RELEASE.jar&lt;org.springframework.web.servlet(View.class[View" modifiers="1537" timestamp="1597644468850"/>
+<typeInfo handle="=springmvc-1/E:\/WorkSpaces\/springMVC\/springmvc-1\/WebContent\/WEB-INF\/lib\/spring-web-4.0.0.RELEASE.jar&lt;org.springframework.web.filter(HiddenHttpMethodFilter.class[HiddenHttpMethodFilter" modifiers="33" timestamp="1597644468953"/>
+<typeInfo handle="=springmvc-2/E:\/WorkSpaces\/springMVC\/springmvc-2\/WebContent\/WEB-INF\/lib\/spring-core-4.0.0.RELEASE.jar&lt;org.springframework.core.convert.converter(Converter.class[Converter" modifiers="1537" timestamp="1598071485822"/>
+<typeInfo handle="=springmvc-2/E:\/WorkSpaces\/springMVC\/springmvc-2\/WebContent\/WEB-INF\/lib\/spring-core-4.0.0.RELEASE.jar&lt;org.springframework.cglib.core(Converter.class[Converter" modifiers="1537" timestamp="1598071485822"/>
+<typeInfo handle="=springmvc-1/E:\/WorkSpaces\/springMVC\/springmvc-1\/WebContent\/WEB-INF\/lib\/spring-webmvc-4.0.0.RELEASE.jar&lt;org.springframework.web.servlet.mvc.annotation(AnnotationMethodHandlerAdapter.class[AnnotationMethodHandlerAdapter" modifiers="1048609" timestamp="1597644468850"/>
+<typeInfo handle="=springmvc-1/E:\/WorkSpaces\/springMVC\/springmvc-1\/WebContent\/WEB-INF\/lib\/spring-web-4.0.0.RELEASE.jar&lt;org.springframework.http(HttpInputMessage.class[HttpInputMessage" modifiers="1537" timestamp="1597644468953"/>
+<typeInfo handle="=springmvc-2/E:\/WorkSpaces\/springMVC\/springmvc-2\/WebContent\/WEB-INF\/lib\/spring-webmvc-4.0.0.RELEASE.jar&lt;org.springframework.web.servlet(HandlerAdapter.class[HandlerAdapter" modifiers="1537" timestamp="1598071485867"/>
+<typeInfo handle="=springmvc-2/E:\/WorkSpaces\/springMVC\/springmvc-2\/WebContent\/WEB-INF\/lib\/spring-webmvc-4.0.0.RELEASE.jar&lt;org.springframework.web.servlet(HandlerInterceptor.class[HandlerInterceptor" modifiers="1537" timestamp="1598071485867"/>
+</typeInfoHistroy>

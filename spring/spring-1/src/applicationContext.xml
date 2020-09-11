@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+
+	<bean id="helloWorld" class="com.spring.beans.HelloWorld">
+		<property name="name2" value="ARMIN"></property>
+	</bean>
+	<!--
+	<bean id="helloWorld2" class="com.spring.beans.HelloWorld">
+		<property name="name2" value="Spring"></property>
+	</bean>
+	 -->
+	 
+	<bean id="car" class="com.spring.beans.Car">
+		<constructor-arg value="Audi" index="0"></constructor-arg>
+		<constructor-arg value="Shanghai" index="1"></constructor-arg>
+		<constructor-arg value="300000" type="double"></constructor-arg>
+	</bean>
+	<bean id="car2" class="com.spring.beans.Car">
+		<constructor-arg value="BMW" type="java.lang.String"></constructor-arg>
+		<constructor-arg type="java.lang.String">
+			<value><![CDATA[<Chengdu>]]> </value>
+		</constructor-arg>
+		<constructor-arg type="int">
+			<value>270</value>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="person" class="com.spring.beans.Person">
+		<property name="name" value="Tom"></property>
+		<property name="age" value="24"></property>
+		<!-- <property name="car" ref="car"></property> -->	
+		<property name="car">
+			<bean id="" class="com.spring.beans.Car">
+				<constructor-arg  value="Ford"></constructor-arg>
+				<constructor-arg  value="Changan"></constructor-arg>
+				<constructor-arg  value="200000" type="double"></constructor-arg>
+			</bean>
+		</property>
+		<property name="car.maxSpeed" value="260"></property>			
+	</bean>
+	
+	<bean id="person2" class="com.spring.beans.Person">
+		<constructor-arg value="Jerry"></constructor-arg>
+		<constructor-arg value="25"></constructor-arg>
+		<!-- <constructor-arg ref="car"></constructor-arg> -->
+		<!-- test <null/> -->
+		<!--  
+		<constructor-arg><null/></constructor-arg>
+		-->
+		<constructor-arg ref="car"></constructor-arg>
+		<property name="car.maxSpeed" value="250"></property>
+	</bean>
+	
+	<!-- test List<Car> -->
+	<bean id="person3" class="com.spring.beans.collection.Person">
+		<property name="name" value="Mike"></property>
+		<property name="age" value="27"></property>
+		<property name="cars">
+			<list>
+				<ref bean="car"></ref>
+				<ref bean="car2"></ref>
+				<bean id="" class="com.spring.beans.Car">
+					<constructor-arg  value="Ford"></constructor-arg>
+					<constructor-arg  value="Changan"></constructor-arg>
+					<constructor-arg  value="200000" type="double"></constructor-arg>
+				</bean>
+			</list>
+		</property>
+	</bean>
+	
+	<!-- test type Map -->
+	<bean id="newPerson" class="com.spring.beans.collection.NewPerson">
+		<property name="name" value="Rose"></property>
+		<property name="age" value="28"></property>
+		<property name="cars">
+			<map>
+				<entry key="AA" value-ref="car"></entry>
+				<entry key="BB" value-ref="car2"></entry>
+			</map>			
+		</property>
+	</bean>
+	
+	<!-- test Properties type -->
+	<bean id="dataSource" class="com.spring.beans.collection.DataSource">
+		<property name="properties">
+			<props>
+				<prop key="user">root</prop>
+				<prop key="password">1234</prop>
+				<prop key="jdbcUrl">jdbc:mysql://test</prop>
+				<prop key="driverClass">com.mysql.jdbc.Driver</prop>
+			</props>
+		</property>
+	</bean>
+	
+	<!-- test singal list bean type -->
+	<util:list id="cars">
+		<ref bean="car"/>
+		<ref bean="car2"/>
+	</util:list>
+	
+	<bean id="person4" class="com.spring.beans.collection.Person">
+		<property name="name" value="Jake"></property>
+		<property name="age" value="29"></property>
+		<property name="cars" ref="cars"></property>
+	</bean>
+	
+	<!-- use p for namespace bean type set value, first import p namespace at NameSpaces -->
+	<bean id="person5" class="com.spring.beans.collection.Person" p:age="30" 
+		p:name="Quee" p:cars-ref="cars"></bean>
+	
+</beans>

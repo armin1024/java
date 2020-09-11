@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全球地图及站点分布</title>
+    <script type="text/javascript" src="js/echarts.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+<div style="width: 100%;height: 75px;line-height: 75px;text-align: center"><h1>全球气象站点可视化</h1></div>
+<div id="main" style="width: 1200px; height: 600px"></div>
+<script>
+    var myChart = echarts.init(document.getElementById('main'));
+    var url = "data/world.json";
+    $.get(url, function(data){
+        // 注册地图
+        echarts.registerMap('world', data);
+        // 指定配置项
+        var option = {
+            geo:[{
+                name:'世界地图',
+                type: 'map',
+                map: 'world',
+
+            }],
+
+        }
+        myChart.setOption(option);
+
+        // 去后台请求所有站点的信息
+        var stationUri = "stations";
+        $.get(stationUri, function(result){
+            var parse = JSON.parse(result);
+            myChart.setOption(option={
+
+                // 提示框组件
+                tooltip:[{
+                    trigger: 'item',    // 触发类型
+                    formatter: '{b}'
+                }],
+                // 指定数据
+                series:[{
+                    name: '站点',
+                    type: 'scatter',
+                    coordinateSystem: 'geo',
+                    symbolSize: 5,
+                    data: parse
+                }]
+
+            });
+        });
+
+        myChart.on('click', function(params){
+            //获取点击的参数名称，然后按照“-”切分得到一个数组
+            var str = params.name.split("-");
+            //如何说数组的长度大于等于2，表名点击的是站点
+            if(str.length >= 2){
+                // 点击站点是跳转到WeatherInfo.html页面中, 并且包usaf-wban的值传递过去
+                window.location.href="WeatherInfo.html?gsod="+params.name;
+            }else{//如果数组的长度小于2，表名点击的不是站点, 是地图
+                alert("点击的不是站点！请重新点击！")
+            }
+        });
+    });
+</script>
+</body>
+</html>

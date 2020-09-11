@@ -1,0 +1,4 @@
+hadoop java hdfs mapreduce
+hive java hadoop hbase
+spark hive hadoop hdfs
+mapreduce hive

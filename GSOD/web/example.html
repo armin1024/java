@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Echarts使用</title>
+    <!-- 1.引入JS文件 -->
+    <script type="text/javascript" src="js/echarts.js"></script>
+</head>
+<body>
+<!-- 2.创建显示图表的容器 div（id属性，在当前页面中是唯一的） -->
+<div id="main" style="width: 600px;height:400px;"></div>
+<!-- 3.编写Echarts代码 -->
+<script type="text/javascript">
+    /*1. 初始化Echarts内置对象*/
+    var myChart = echarts.init(document.getElementById('main'));
+    // 指定图表的配置项和数据
+    var option = {
+        title: {
+            text: 'ECharts 入门示例'
+        },
+        tooltip: {},
+        legend: {
+            data:['销量']
+        },
+        xAxis: {
+            data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+        },
+        yAxis: {},
+        series: [{  /*series中每个图表的name属性，必须和legend指定的数据相同*/
+            name: '销量',
+            type: 'bar',
+            data: [5, 20, 36, 10, 10, 20]
+        }]
+    };
+
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+</script>
+</body>
+</html>

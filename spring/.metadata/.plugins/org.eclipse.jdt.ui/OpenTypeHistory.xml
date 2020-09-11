@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=spring-1/lib\/spring-beans-4.0.0.RELEASE.jar&lt;org.springframework.beans.factory.config(BeanPostProcessor.class[BeanPostProcessor" modifiers="1537" timestamp="1596969550963"/>
+<typeInfo handle="=spring-1/E:\/DevelopTools\/jdk\/jre\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;org.omg.PortableInterceptor(USER_EXCEPTION.class[USER_EXCEPTION" modifiers="1537" timestamp="1567838934653"/>
+<typeInfo handle="=spring-1/src&lt;com.spring.beans.annotation.repository{UserRepository.java[UserRepository" modifiers="513" timestamp="1597223912646"/>
+<typeInfo handle="=spring-4/src&lt;com.spring.tx{BookShopDao.java[BookShopDao" modifiers="513" timestamp="1597396923098"/>
+<typeInfo handle="=spring-4/src&lt;com.spring.tx{BookShopService.java[BookShopService" modifiers="513" timestamp="1597407244330"/>
+<typeInfo handle="=spring-4/src&lt;com.spring.tx{Cashier.java[Cashier" modifiers="513" timestamp="1597466642432"/>
+</typeInfoHistroy>

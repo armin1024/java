@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db8c210e-707f-48a9-99bf-6e66104e4edc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/Software/apache-maven-3.3.1" />
+        <option name="userSettingsFile" value="E:\Software\apache-maven-3.3.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eztgVZ9WgKXBpFMNzPQHjUTZ2q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5064011" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WorkSpaces\test01\src\java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WorkSpaces\test01\src\main\java" />
+      <recent name="E:\WorkSpaces\test01\src\test\java" />
+      <recent name="E:\WorkSpaces\test01\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WordCountJava">
+    <configuration name="DDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.mr.distinct.DDriver" />
+      <module name="test01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.mr.distinct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.lambda.Demo" />
+      <module name="test01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.hbase.Demo01" />
+      <module name="test01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.hbase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.lambda.Demo01" />
+      <module name="test01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCountJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.mr.wordcount.WordCountJava" />
+      <module name="test01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.mr.wordcount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WordCountJava" />
+        <item itemvalue="Application.Demo01 (1)" />
+        <item itemvalue="Application.Demo01" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.DDriver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db8c210e-707f-48a9-99bf-6e66104e4edc" name="Default Changelist" comment="" />
+      <created>1595336360645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595336360645</updated>
+      <workItem from="1595336365206" duration="4164000" />
+      <workItem from="1595382488787" duration="1415000" />
+      <workItem from="1595384176227" duration="1878000" />
+      <workItem from="1595386091563" duration="1007000" />
+      <workItem from="1595387124625" duration="3707000" />
+      <workItem from="1595391147413" duration="1848000" />
+      <workItem from="1595399798491" duration="7137000" />
+      <workItem from="1595408727266" duration="5538000" />
+      <workItem from="1595426131584" duration="4231000" />
+      <workItem from="1595462881503" duration="5369000" />
+      <workItem from="1595470479369" duration="5076000" />
+      <workItem from="1595475713233" duration="138000" />
+      <workItem from="1595475874475" duration="7024000" />
+      <workItem from="1595663706805" duration="13098000" />
+      <workItem from="1595725685332" duration="1812000" />
+      <workItem from="1595939022219" duration="562000" />
+      <workItem from="1596860131165" duration="1908000" />
+      <workItem from="1596882014626" duration="2720000" />
+      <workItem from="1596944527828" duration="1060000" />
+      <workItem from="1598663098879" duration="1721000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="661" y="170" key="#Big_Data_Tools_Connections" timestamp="1595385931640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="170" key="#Big_Data_Tools_Connections/0.0.1920.1040@0.0.1920.1040" timestamp="1595385931640" />
+    <state x="552" y="182" key="#Project_Structure" timestamp="1595408488860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1595408488860" />
+    <state x="709" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1595475854178">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="709" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595475854178" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1595490482403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595490482403" />
+    <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1596866460982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596866460982" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1596866337215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596866337215" />
+    <state width="1877" height="732" key="GridCell.Tab.0.bottom" timestamp="1596874382931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="732" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596874382931" />
+    <state width="1877" height="732" key="GridCell.Tab.0.center" timestamp="1596874382931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="732" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596874382931" />
+    <state width="1877" height="732" key="GridCell.Tab.0.left" timestamp="1596874382930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="732" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596874382930" />
+    <state width="1877" height="732" key="GridCell.Tab.0.right" timestamp="1596874382931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="732" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596874382931" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1595665465619">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595665465619" />
+    <state x="747" y="171" width="994" height="708" key="SettingsEditor" timestamp="1598666642250">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="747" y="171" width="994" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598666642250" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1598664362298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598664362298" />
+    <state x="334" y="224" key="new project wizard" timestamp="1598666828243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1598666828243" />
+    <state x="299" y="237" key="run.anything.popup" timestamp="1595666924986">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="299" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595666924986" />
+  </component>
+</project>

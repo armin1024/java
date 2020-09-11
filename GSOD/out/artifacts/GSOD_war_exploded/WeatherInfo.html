@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>天气数据展示</title>
+	<script type="text/javascript" src="js/echarts.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+
+<div id="temp" style="width:1400px; height:600px"></div>
+<script type="text/javascript">
+	//1-初始化echarts内置对象
+	var myEcharts = echarts.init(document.getElementById('temp'));
+	// 获取点击站点的usaf-wban的值
+	var args = location.search; //获取URL中？及后面的参数部分
+	// 和后台的URL拼接起来, 用来查询该站点的气象数据
+	var url = "gsod"+args;
+
+	$.get(url, function(data){
+		//将字符串转变为Object对象
+		data = JSON.parse(data);
+		// alert(data);
+
+		var option = {
+			title: {
+				text: '温度类信息折线图'
+			},
+			tooltip: {
+				trigger: 'axis'
+			},
+			legend: { //图例
+				data:['平均温度','平均可见度','平均风速']
+			},
+			toolbox: {
+				feature: {
+					saveAsImage: {}
+				}
+			},
+			xAxis: {
+				type: 'category',
+				boundaryGap: false,
+				data: data.map(function(item){
+					return item.value[0];
+				})    //时间
+			},
+			yAxis: {
+				type: 'value'  //key-value
+			},
+			series: [
+				{
+					name:'平均温度',
+					type:'line',
+					stack: '总量',
+					data:data.map(function(item){
+						return item.value[1];
+					})
+				},
+				{
+					name:'平均可见度',
+					type:'line',
+					stack: '总量',
+					data:data.map(function(item){
+						return item.value[2];
+					})
+				},
+				{
+					name:'最高平均风速',
+					type:'line',
+					stack: '总量',
+					data:data.map(function(item){
+						return item.value[3];
+					})
+				},
+			]
+		};
+		myEcharts.setOption(option);
+	});
+</script>
+</body>
+</html>

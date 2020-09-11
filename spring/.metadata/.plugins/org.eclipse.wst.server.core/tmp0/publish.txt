@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sun Aug 16 17:59:27 CST 2020
+org.eclipse.jst.jee.server\:/binary\:E\:\\WorkSpaces\\spring\\spring-6\\WebContent\\WEB-INF\\lib\\spring-web-4.0.0.RELEASE.jar=WEB-INF/lib/spring-web-4.0.0.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:E\:\\WorkSpaces\\spring\\spring-7\\WebContent\\WEB-INF\\lib\\spring-web-4.0.0.RELEASE.jar=WEB-INF/lib/spring-web-4.0.0.RELEASE.jar
